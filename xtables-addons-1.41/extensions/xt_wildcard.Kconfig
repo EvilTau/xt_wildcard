@@ -1,0 +1,7 @@
+config NETFILTER_XT_MATCH_WILDCARD
+	tristate '"wildcard" match support'
+	depends on NETFILTER_XTABLES
+	---help---
+	The xt_wildcard module allow matching source and/or destination address
+	with wildcard (reverse) mask.
+
